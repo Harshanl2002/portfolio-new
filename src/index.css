@@ -1,0 +1,50 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+.arizonia {
+  font-family: "arizonia", sans-serif;
+}
+
+.poppins{
+    font-family: 'poppins', sans-serif;
+}
+
+.poppins-normal{
+  font-family: 'poppinsn',sans-serif;
+}
+
+.polygon{
+    background: url('./assets/Vector.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    animation: rotateHex 3s linear infinite;
+}
+
+.color{
+  color: #ffffff96;
+}
+
+@keyframes rotateHex {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.gradient {
+  background: rgb(255, 254, 254);
+  background: -moz-radial-gradient(
+    circle,
+    rgba(255, 254, 254, 1) 0%,
+    rgb(250, 209, 211) 99%
+  );
+  background: -webkit-radial-gradient(
+    circle,
+    rgba(255, 254, 254, 1) 0%,
+    rgb(250, 210, 212) 99%
+  );
+  background: radial-gradient(
+    circle,
+    rgba(255, 254, 254, 1) 0%,
+    rgb(250, 210, 212) 99%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fffefe",endColorstr="#fff0f1",GradientType=1);
+}
