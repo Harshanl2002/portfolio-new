@@ -1,5 +1,5 @@
 import React from "react";
-import "swiper/css/bundle";
+import "swiper/swiper-bundle.css";
 import { Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import express from "../assets/express1.png";
