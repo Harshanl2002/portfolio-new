@@ -42,7 +42,7 @@ const projects = [
     description:
       "A weather forecasting app using React and OpenWeatherMap API.",
     image: weather,
-    link: "https://github.com/Harshanl2002/weather-app",
+    link: "https://github.com/Harshanl2002/weatherapps",
     isVisitable: true,
   },
   {
